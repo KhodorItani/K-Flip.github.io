@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>K-Flip</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+
+  <body>
+    <section id="category">
+      <div class="container">
+        <!-- <h3 class="text-center section-subheading">Coming Soon</h3> -->
+        <h1 class="text-center section-heading">Categories</h1>
+      </div>
+      <div class="container">
+        <div class="swiper category-slider">
+          <div class="swiper-wrapper">
+            <!-- Slide-start -->
+            <a href="Food.html" class="swiper-slide category-slide">
+              <div class="category-slide-img">
+                <img src="./images/Food_Cat.webp" alt="">
+              </div>
+              <div class="category-slide-content">
+                <div class="category-slide-content-bottom">
+                  <h2>Food</h2>
+                </div>
+              </div>
+            </a>
+            <!-- Slide-end -->
+            <!-- Slide-start -->
+            <a href="Animals.html" class="swiper-slide category-slide">
+              <div class="category-slide-img">
+                <img src="./images/Animals.webp" alt="">
+              </div>
+              <div class="category-slide-content">
+                <div class="category-slide-content-bottom">
+                  <h2>Animals</h2>
+                </div>
+              </div>
+            </a>
+            <!-- Slide-end -->
+            <!-- Slide-start -->
+            <a href="Numbers.html" class="swiper-slide category-slide">
+              <div class="category-slide-img">
+                <img src="./images/one-to-ten-numbers-7931636-6360319.webp" alt="">
+              </div>
+              <div class="category-slide-content">
+                <div class="category-slide-content-bottom">
+                  <h2>Numbers</h2>
+                </div>
+              </div>
+            </a>
+            <!-- Slide-end -->
+            <!-- Slide-start -->
+            <a href="Clothes.html" class="swiper-slide category-slide">
+              <div class="category-slide-img">
+                <img src="./images/Clothes.webp" alt="">
+              </div>
+              <div class="category-slide-content">
+                <div class="category-slide-content-bottom">
+                  <h2>Clothes</h2>
+                </div>
+              </div>
+            </a>
+            <!-- Slide-end -->
+            <!-- Slide-start -->
+            <a href="Calendar.html" class="swiper-slide category-slide">
+              <div class="category-slide-img">
+                <img src="./images/Months.webp" alt="">
+              </div>
+              <div class="category-slide-content">
+                <div class="category-slide-content-bottom">
+                  <h2>Calendar</h2>
+                </div>
+              </div>
+            </a>
+            <!-- Slide-end -->
+            <!-- Slide-start -->
+            <a href="Kitchenware.html" class="swiper-slide category-slide">
+                <div class="category-slide-img">
+                  <img src="./images/kitchenware.png" alt="">
+                </div>
+                <div class="category-slide-content">
+                  <div class="category-slide-content-bottom">
+                    <h2>Kitchenware</h2>
+                  </div>
+                </div>
+              </a>
+              <!-- Slide-end -->
+
+          </div>
+          <div class="category-slider-control">
+            <div class="swiper-button-prev slider-arrow">
+              <ion-icon name="arrow-back-outline"></ion-icon>
+            </div>
+            <div class="swiper-button-next slider-arrow">
+              <ion-icon name="arrow-forward-outline"></ion-icon>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+     <!-- Row1 -->
+     <section class="row">
+        <div class="column">
+            <div class="card">
+                <div class="card__inner" data-audio="audio1"> <!-- data-audio = Count++ -->
+                    <audio id="audio1" src="./sounds/Strawberry.mp3"></audio> <!-- audio id = Count++ -->
+                    <div class="card__face card__face--front">
+                        <img src="./images/Strawberry.png" alt="" class="fp">
+                    </div>
+                    <div class="card__face card__face--back">
+                        <div class="card__content">
+                            <div class="card__header"></div>
+                            <div class="card__body">
+                                <h2>딸기</h2>
+                                <h3>ttalgi</h3>
+                                <h2>فراولة</h2>
+                                <h2>Strawberry</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="card">
+                <div class="card__inner" data-audio="audio2"> <!-- data-audio = Count++ -->
+                    <audio id="audio2" src="./sounds/Pomegranate.m4a"></audio> <!-- audio id = Count++ -->
+                    <div class="card__face card__face--front">
+                        <img src="./images/Pomegranate.webp" alt="" class="fp">
+                    </div>
+                    <div class="card__face card__face--back">
+                        <div class="card__content">
+                            <div class="card__header"></div>
+                            <div class="card__body">
+                                <h2>석류</h2>
+                                <h3>seoglyu</h3>
+                                <h2>رمان</h2>
+                                <h2>Pomegranate</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="card">
+                <div class="card__inner" data-audio="audio3">
+                    <audio id="audio3" src="./sounds/Grapes.mp3"></audio>
+                    <div class="card__face card__face--front">
+                        <img src="./images/Grapes.webp" alt="" class="fp">
+                    </div>
+                    <div class="card__face card__face--back">
+                        <div class="card__content">
+                            <div class="card__header"></div>
+                            <div class="card__body">
+                                <h2>포도</h2>
+                                <h3>podo</h3>
+                                <h2>عنب</h2>
+                                <h2>Grapes</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="card">
+                <div class="card__inner" data-audio="audio4">
+                    <audio id="audio4" src="./sounds/Apple.mp3"></audio>
+                    <div class="card__face card__face--front">
+                        <img src="./images/Food/Fruits/Apple.webp" alt="" class="fp">
+                    </div>
+                    <div class="card__face card__face--back">
+                        <div class="card__content">
+                            <div class="card__header"></div>
+                            <div class="card__body">
+                                <h2>사과</h2>
+                                <h3>sagwa</h3>
+                                <h2>تفاحة</h2>
+                                <h2>Apple</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="card">
+                <div class="card__inner" data-audio="audio5">
+                    <audio id="audio5" src="./sounds/Mango.mp3"></audio>
+                    <div class="card__face card__face--front">
+                        <img src="./images/Mango.png" alt="" class="fp">
+                    </div>
+                    <div class="card__face card__face--back">
+                        <div class="card__content">
+                            <div class="card__header"></div>
+                            <div class="card__body">
+                                <h2>망고</h2>
+                                <h3>mang-go</h3>
+                                <h2>مانجو</h2>
+                                <h2>Mango</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="card">
+                <div class="card__inner" data-audio="audio6">
+                    <audio id="audio6" src="./sounds/Cherry.mp3"></audio>
+                    <div class="card__face card__face--front">
+                        <img src="./images/Cherry.webp" alt="" class="fp">
+                    </div>
+                    <div class="card__face card__face--back">
+                        <div class="card__content">
+                            <div class="card__header"></div>
+                            <div class="card__body">
+                                <h2>체리</h2>
+                                <h3>cheli</h3>
+                                <h2>كرز</h2>
+                                <h2>Cherry</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Row2 -->
+    <section class="row">
+        <div class="column">
+            <div class="card">
+                <div class="card__inner" data-audio="audio7">
+                    <audio id="audio7" src="./sounds/Orange Fruit.mp3"></audio>
+                    <div class="card__face card__face--front">
+                        <img src="./images/Orange.webp" alt="" class="fp">
+                    </div>
+                    <div class="card__face card__face--back">
+                        <div class="card__content">
+                            <div class="card__header"></div>
+                            <div class="card__body">
+                                <h2>오렌지</h2>
+                                <h3>olenji</h3>
+                                <h2>برتقال</h2>
+                                <h2>Orange</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="card">
+                <div class="card__inner" data-audio="audio8">
+                    <audio id="audio8" src="./sounds/Carambola.m4a"></audio>
+                    <div class="card__face card__face--front">
+                        <img src="./images/StarFruit.webp" alt="" class="fp">
+                    </div>
+                    <div class="card__face card__face--back">
+                        <div class="card__content">
+                            <div class="card__header"></div>
+                            <div class="card__body">
+                                <h2>카람볼라</h2>
+                                <h3>kalambolla</h3>
+                                <h2>قلنباق</h2>
+                                <h2>Carambola</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="card">
+                <div class="card__inner" data-audio="audio9">
+                    <audio id="audio9" src="./sounds/Kiwi.mp3"></audio>
+                    <div class="card__face card__face--front">
+                        <img src="./images/Kiwi.webp" alt="" class="fp">
+                    </div>
+                    <div class="card__face card__face--back">
+                        <div class="card__content">
+                            <div class="card__header"></div>
+                            <div class="card__body">
+                                <h2>키위</h2>
+                                <h3>kiwi</h3>
+                                <h2>كيوي</h2>
+                                <h2>Kiwi</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="card">
+                <div class="card__inner" data-audio="audio10">
+                    <audio id="audio10" src="./sounds/Banana.mp3"></audio>
+                    <div class="card__face card__face--front">
+                        <img src="./images/Banana.webp" alt="" class="fp">
+                    </div>
+                    <div class="card__face card__face--back">
+                        <div class="card__content">
+                            <div class="card__header"></div>
+                            <div class="card__body">
+                                <h2>바나나</h2>
+                                <h3>banana</h3>
+                                <h2>موز</h2>
+                                <h2>Banana</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="card">
+                <div class="card__inner" data-audio="audio11">
+                    <audio id="audio11" src="./sounds/Plum.mp3"></audio>
+                    <div class="card__face card__face--front">
+                        <img src="./images/Plum.webp" alt="" class="fp">
+                    </div>
+                    <div class="card__face card__face--back">
+                        <div class="card__content">
+                            <div class="card__header"></div>
+                            <div class="card__body">
+                                <h2>자두</h2>
+                                <h3>jadu</h3>
+                                <h2>برقوق</h2>
+                                <h2>Plum</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="card">
+                <div class="card__inner" data-audio="audio12">
+                    <audio id="audio12" src="./sounds/Pineapple.mp3"></audio>
+                    <div class="card__face card__face--front">
+                        <img src="./images/Pineapple.webp" alt="" class="fp">
+                    </div>
+                    <div class="card__face card__face--back">
+                        <div class="card__content">
+                            <div class="card__header"></div>
+                            <div class="card__body">
+                                <h2>파인애플</h2>
+                                <h3>painaepeul</h3>
+                                <h2>أناناس</h2>
+                                <h2>Pineapple</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Row3 -->
+    <section class="row">
+        <div class="column">
+            <div class="card">
+                <div class="card__inner" data-audio="audio13">
+                    <audio id="audio13" src="./sounds/Raspberry.mp3"></audio>
+                    <div class="card__face card__face--front">
+                        <img src="./images/Raspberry.webp" alt="" class="fp">
+                    </div>
+                    <div class="card__face card__face--back">
+                        <div class="card__content">
+                            <div class="card__header"></div>
+                            <div class="card__body">
+                                <h2>라즈베리</h2>
+                                <h3>lajeubeli</h3>
+                                <h2>توت العُليق</h2>
+                                <h2>Raspberry</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="card">
+                <div class="card__inner" data-audio="audio14">
+                    <audio id="audio14" src="./sounds/Guava.m4a"></audio>
+                    <div class="card__face card__face--front">
+                        <img src="./images/Guava.webp" alt="" class="fp">
+                    </div>
+                    <div class="card__face card__face--back">
+                        <div class="card__content">
+                            <div class="card__header"></div>
+                            <div class="card__body">
+                                <h2>구아바</h2>
+                                <h3>guaba</h3>
+                                <h2>جوافة</h2>
+                                <h2>Guava</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="card">
+                <div class="card__inner" data-audio="audio15">
+                    <audio id="audio15" src="./sounds/Akebia.m4a"></audio>
+                    <div class="card__face card__face--front">
+                        <img src="./images/Akebia.png" alt="" class="fp">
+                    </div>
+                    <div class="card__face card__face--back">
+                        <div class="card__content">
+                            <div class="card__header"></div>
+                            <div class="card__body">
+                                <h2>아케비아</h2>
+                                <h3>akebia</h3>
+                                <h2>اكيبيا</h2>
+                                <h2>Akebia</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="card">
+                <div class="card__inner" data-audio="audio16">
+                    <audio id="audio16" src="./sounds/Watermelon.m4a"></audio>
+                    <div class="card__face card__face--front">
+                        <img src="./images/Watermelon2.webp" alt="" class="fp">
+                    </div>
+                    <div class="card__face card__face--back">
+                        <div class="card__content">
+                            <div class="card__header"></div>
+                            <div class="card__body">
+                                <h2>수박</h2>
+                                <h3>subag</h3>
+                                <h2>بطيخ</h2>
+                                <h2>Watermelon</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="card">
+                <div class="card__inner" data-audio="audio17">
+                    <audio id="audio17" src="./sounds/PassionFruit.m4a"></audio>
+                    <div class="card__face card__face--front">
+                        <img src="./images/PassionFruit.webp" alt="" class="fp">
+                    </div>
+                    <div class="card__face card__face--back">
+                        <div class="card__content">
+                            <div class="card__header"></div>
+                            <div class="card__body">
+                                <h2>패션 프루트</h2>
+                                <h3>paesyeon peuluteu</h3>
+                                <h2>آلامية مأكولة</h2>
+                                <h2>Passion Fruit</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="card">
+                <div class="card__inner" data-audio="audio18">
+                    <audio id="audio18" src="./sounds/Papaya.m4a"></audio>
+                    <div class="card__face card__face--front">
+                        <img src="./images/Papaya.webp" alt="" class="fp">
+                    </div>
+                    <div class="card__face card__face--back">
+                        <div class="card__content">
+                            <div class="card__header"></div>
+                            <div class="card__body">
+                                <h2>파파야</h2>
+                                <h3>papaya</h3>
+                                <h2>بابايا</h2>
+                                <h2>Papaya</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Repeat for the next set of five cards -->
+    </section>
+
+  <h1 class="text-center section-heading">COMING SOON :)</h1>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+
+</html>
