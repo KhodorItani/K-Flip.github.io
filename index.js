@@ -1,3 +1,10 @@
+window.onload = function() {
+    setTimeout(function() {
+        // Hide the preloader after a delay (e.g., 3 seconds)
+        document.getElementById('preloader').style.display = 'none';
+    }, 3000); // Delay in milliseconds (3000ms = 3s)
+};
+
 var TrandingSlider = new Swiper('.category-slider', {
     effect: 'coverflow',
     grabCursor: true,
